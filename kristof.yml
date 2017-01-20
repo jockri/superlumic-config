@@ -1,6 +1,6 @@
 ---
 
-- hosts: 127.0.0.1
+- hosts: localhost
   connection: local
 
   tasks:
@@ -12,8 +12,6 @@
         - dropbox
         - spotify
         - keepingyouawake
-        - chromecast
-        - cyberduck
         - firefox
         - integrity
         - skype
@@ -21,8 +19,6 @@
         - vagrant
         - lastpass
         - unrarx
-        - integrity
-        - mysqlworkbench
         - sketch
     - name: create ssh directory
       become: yes

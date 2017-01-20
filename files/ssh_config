@@ -9,5 +9,8 @@ ControlPersist yes
 Host *
   UseKeychain yes
 
-Host *.settlemint.io
-   User root
+Host *.cloud.kunstmaan.com
+   Port 9999
+
+Host git.kunstmaan.be
+   Port 9999
